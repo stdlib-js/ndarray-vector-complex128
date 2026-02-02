@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/ndarray-vector-ctor": "github:stdlib-js/ndarray-vector-ctor#main",
+    "@stdlib/ndarray-vector-ctor": "^0.1.0",
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
@@ -47,9 +47,9 @@
     "@stdlib/assert-is-ndarray-like": "^0.2.2",
     "@stdlib/assert-is-ndarray-like-with-data-type": "^0.1.0",
     "@stdlib/assert-is-same-complex128array": "^0.2.2",
-    "@stdlib/blas-ext-sum": "github:stdlib-js/blas-ext-sum#main",
+    "@stdlib/blas-ext-sum": "^0.1.0",
     "@stdlib/buffer-from-array": "^0.2.2",
-    "@stdlib/complex-float64-ctor": "^0.1.0",
+    "@stdlib/complex-float64-ctor": "^0.1.1",
     "@stdlib/complex-float64-imag": "^0.1.1",
     "@stdlib/complex-float64-real": "^0.1.1",
     "@stdlib/math-base-special-pow": "^0.3.0",
