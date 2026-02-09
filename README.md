@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import Complex128Vector from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-vector-complex128@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-vector-complex128/tags). For example,
+
+```javascript
 import Complex128Vector from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-vector-complex128@v0.1.1-esm/index.mjs';
 ```
 
@@ -164,7 +169,7 @@ import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-map@esm/index.mjs
 import real from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-real@esm/index.mjs';
 import imag from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-imag@esm/index.mjs';
 import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-ctor@esm/index.mjs';
-import Complex128Vector from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-vector-complex128@v0.1.1-esm/index.mjs';
+import Complex128Vector from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-vector-complex128@esm/index.mjs';
 
 // Create a vector containing random values:
 var x = new Complex128Vector( discreteUniform( 20, 0, 100 ) );
