@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import Complex128Vector from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-vector-complex128@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-vector-complex128/tags). For example,
+
+```javascript
 import Complex128Vector from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-vector-complex128@v0.1.1-deno/mod.js';
 ```
 
@@ -159,7 +164,7 @@ import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-map@deno/mod.js';
 import real from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-real@deno/mod.js';
 import imag from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-imag@deno/mod.js';
 import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-ctor@deno/mod.js';
-import Complex128Vector from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-vector-complex128@v0.1.1-deno/mod.js';
+import Complex128Vector from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-vector-complex128@deno/mod.js';
 
 // Create a vector containing random values:
 var x = new Complex128Vector( discreteUniform( 20, 0, 100 ) );
